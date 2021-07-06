@@ -1,0 +1,160 @@
+/* temp */
+/* section,
+header,
+footer {
+  outline: 1px dashed lime;
+}
+.container1 {
+  outline: 1px dashed red;
+} */
+/* Global */
+h1,
+body {
+  margin: 0;
+}
+html {
+  background: darkgray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+body {
+  max-width: 1400px;
+  background: lightblue;
+  margin: auto;
+}
+.container1 {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+.current {
+  color: deeppink;
+  font-weight: bold;
+}
+/* header */
+header {
+  background: skyblue;
+  color: whitesmoke;
+  min-height: 70px;
+  padding-top: 30px;
+  border-bottom: 3px solid salmon;
+}
+header .branning {
+  float: left;
+}
+header nav {
+  float: right;
+  margin-top: 20px;
+}
+header ul {
+  list-style-type: none;
+}
+header li {
+  display: inline-block;
+  padding: 0 20px;
+}
+header a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: inherit;
+}
+header a:hover {
+  color: pink;
+}
+header span {
+  color: deeppink;
+}
+/* showcase */
+.showcase {
+  min-height: 400px;
+  background: url("https://picsum.photos/id/2/1500/500/?blur=4") no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+.showcase h1 {
+  margin-top: 100px;
+  font-size: 55px;
+}
+.showcase p {
+  font-size: 20px;
+  color: deeppink;
+  width: 80%;
+  margin: auto;
+}
+/* newletters */
+
+.newsletter {
+  padding: 15px;
+  background: lightskyblue;
+  color: coral;
+}
+
+.newsletter h1 {
+  float: left;
+}
+
+.newsletter form {
+  float: right;
+}
+.newsletter input[type="email"] {
+  width: 250px;
+  height: 25px;
+  padding: 4px;
+  border-radius: 4px;
+  border: none;
+}
+.newsletter button {
+  height: 35px;
+  background-color: coral;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  padding: 0 20px;
+}
+/* boxes */
+
+.box {
+  float: left;
+  width: 30%;
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px;
+}
+.box img {
+  height: 100px;
+}
+/* footer */
+footer {
+  padding: 20px;
+  /* margin-top: 20px; */
+  color: whitesmoke;
+  background-color: skyblue;
+  text-align: center;
+}
+/* about content */
+.about_content {
+  /* text-align: center; */
+  color: black;
+  background: rgb(216, 216, 216);
+}
+.content1 {
+  float: left;
+  width: 65%;
+  padding: 10px;
+}
+.content2 {
+  float: left;
+  width: 25%;
+  background: rgb(255, 102, 247);
+  margin-top: 20px;
+  padding: 15px;
+}
+.yellowbox {
+  background: yellow;
+  color: deeppink;
+  margin-top: 5px;
+  padding: 10px;
+}
